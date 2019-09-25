@@ -12,6 +12,9 @@ gemspec
 # your gem to rubygems.org.
 
 gem 'applogic', path: '../applogic-core'
+# Sidekiq & related
+gem 'sidekiq'
+gem 'sidekiq-cron', '~> 1.1'
 
 # To use a debugger
 gem 'byebug', group: [:development, :test]
